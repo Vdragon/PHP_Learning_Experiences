@@ -1,5 +1,5 @@
 <?php
-  echo "<?xml version='1.0' encoding='UTF-8'?> . PHP_EOL";
+  echo "<?xml version='1.0' encoding='UTF-8'?>" . PHP_EOL;
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -26,7 +26,7 @@ XHTML 1.0 Transitional範本
   <!--head標籤：包含一些metadata（中介資料）-->
   <head>
     <!--title標籤：顯示於標題列(title bar)的文字-->
-    <title>002_phpinfo</title>
+    <title>003_variables_and_loops</title>
     <!--meta標籤：一些非此標籤所能表示的一些其他的metadata（中介資料）
           name屬性：metadata的名稱
             author：網頁的創作者名稱。
@@ -76,7 +76,7 @@ XHTML 1.0 Transitional範本
       <hr />
     </div>
     <div class='div_content'>
-       <?php phpinfo(); ?>
+
     </div>
     <!--footer-->
     <!--版本：1.00(0)201112012220-->
@@ -91,7 +91,7 @@ XHTML 1.0 Transitional範本
       這個圖示代表了這個網頁的開發者致力於讓這個網頁的內容能盡量符合W3C的規範，讓不同的網頁瀏覽器能更加正確的顯示這個網頁而不會出現相容性問題。您可以點擊這個圖示讓W3C的Markup Validation Service再次對這個網頁進行檢查。
       <hr />
       <!--W3C CSS Validator通過之後可以放上此圖片-->
-      <a href="http://jigsaw.w3.org/css-validator/check/referer" target=      '_blank'>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer" target='_blank'>
         <img style="border:0;width:88px;height:31px"
              src="http://jigsaw.w3.org/css-validator/images/vcss"
              alt="W3C CSS Validation Service驗證通過圖示 | W3C CSS Validater Service Verification Passed Icon" />
