@@ -26,7 +26,7 @@ XHTML 1.0 Transitional範本
   <!--head標籤：包含一些metadata（中介資料）-->
   <head>
     <!--title標籤：顯示於標題列(title bar)的文字-->
-    <title>003_variables_and_loops</title>
+    <title>005_Test_echo</title>
     <!--meta標籤：一些非此標籤所能表示的一些其他的metadata（中介資料）
           name屬性：metadata的名稱
             author：網頁的創作者名稱。
@@ -76,11 +76,11 @@ XHTML 1.0 Transitional範本
       <hr />
     </div>
     <div class='div_content'>
-      <h2>for迴圈</h2>
       <?php
-        for($count = 0, print(PHP_EOL); $count <= 10; $count++){
-          echo($count . "<br />" . PHP_EOL);
-        }
+      echo "test<br />" .PHP_EOL;
+      echo 'test<br />' .PHP_EOL;
+      echo ("test<br />") . PHP_EOL;
+      echo (PHP_EOL);
       ?>
     </div>
     <!--footer-->

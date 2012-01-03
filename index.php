@@ -79,14 +79,19 @@ target='_self'>001_Hello_World</a><br />
     <a href='002_phpinfo/'
 target='_self'>002_phpinfo</a><br />
     <a
-      href='003_variables_and_loops/'
+      href='003_Variables_and_loops/'
       target='_self'>
-      003_variables_and_loops
+      003_Variables_and_loops
     </a><br />
     <a
       href='004_Advanced_escaping/'
       target='_self'>
       004_Advanced_escaping
+    </a><br />
+    <a
+      href='005_Test_echo/'
+      target='_self'>
+      005_Test_echo
     </a><br />
     <!--footer-->
     <div class='footer'>
